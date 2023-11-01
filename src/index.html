@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Color Flipper</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="icon" href="../images/color-palette-outline.svg" />
+  </head>
+  <body>
+    <div class="alert">
+      <div class="alert__container">
+        <div class="alert__header">
+          <h3 class="alert__title">What is Color Flipper? 🤔</h3>
+          <img
+            src="../images/close-circle.svg"
+            alt="close-btn"
+            class="alert__close"
+            id="close-btn"
+          />
+        </div>
+        <div class="alert__body">
+          <p>
+            Color Flipper is a tool you can use to generate random colors; It’s
+            free and open source, enjoy!
+          </p>
+        </div>
+      </div>
+    </div>
+    <nav class="navigation">
+      <ul>
+        <li>
+          <img
+            class="navigation__logo"
+            src="../images/color-palette-outline.svg"
+            alt="color-palette"
+          />
+        </li>
+        <li><h1 class="navigation__title">Color Flipper</h1></li>
+        <li>
+          <img
+            class="navigationــinfo"
+            src="../images/question.svg"
+            alt="information"
+            id="info"
+          />
+        </li>
+      </ul>
+    </nav>
+    <main>
+      <div class="hex-generator">
+        <h2 class="hex-generator__title">
+          Background Color :&nbsp;
+          <span class="hex-generator__color" id="color">#EEEEEE</span>
+        </h2>
+        <button class="hex-generator__btn" id="btn">Click Me</button>
+      </div>
+    </main>
+    <script src="app.js"></script>
+  </body>
+</html>
