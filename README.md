@@ -1,6 +1,6 @@
-# 🎨 Random Color Generator
+# 🎨 Color Flipper
 
-Get creative with this Random Color Generator! 🌈
+Get creative with Color Flipper! 🌈
 
 Instantly discover vibrant colors at the click of a button. Perfect for designers, developers, and anyone in need of fresh color inspiration. Use the provided hexadecimal code in your projects or simply brighten your day.
 
